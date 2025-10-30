@@ -1,0 +1,3 @@
+-- Optional: Only if you enable RLS on docs and want public (anon) read access.
+-- alter table public.docs enable row level security;
+-- create policy "read_docs" on public.docs for select using (true);
